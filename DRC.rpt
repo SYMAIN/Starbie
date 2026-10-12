@@ -1,0 +1,56 @@
+** Drc report for Starbie.kicad_pcb **
+** Created on 2026-10-11T23:35:47 **
+** Report includes: Errors **
+
+** Found 2 DRC violations **
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(160.8240 mm, 85.5080 mm): Footprint J1
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; error
+    @(160.8240 mm, 85.5080 mm): Footprint J1
+
+** Found 8 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.0000 mm, 90.8400 mm): Track [+3.3V] on B.Cu, length 1.6600 mm
+    @(164.5000 mm, 80.0000 mm): Track [+3.3V] on B.Cu, length 0.5620 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.6600 mm, 90.8400 mm): Track [+3.3V] on B.Cu, length 25.9367 mm
+    @(193.8400 mm, 72.5120 mm): Pad 12 [+3.3V] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0000 mm, 71.5000 mm): PTH pad 2 [GND] of SW1
+    @(138.5000 mm, 95.5000 mm): PTH pad 2 [GND] of SW2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.9200 mm, 55.0000 mm): PTH pad 4 [GND] of U1
+    @(132.0000 mm, 71.5000 mm): PTH pad 2 [GND] of SW1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.0140 mm, 85.5080 mm): PTH pad 4 [GND] of J1
+    @(174.0000 mm, 93.3800 mm): PTH pad 2 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.0140 mm, 85.5080 mm): PTH pad 4 [GND] of J1
+    @(138.5000 mm, 95.5000 mm): PTH pad 2 [GND] of SW2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.0000 mm, 93.3800 mm): PTH pad 2 [GND] of J2
+    @(187.0000 mm, 68.9600 mm): Pad 18 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.8400 mm, 69.9720 mm): Pad 13 [GND] of U2 on F.Cu
+    @(187.0000 mm, 68.9600 mm): Pad 18 [GND] of U2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
